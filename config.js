@@ -1,0 +1,6 @@
+const config = {
+  url: "http://localhost:3000/",
+  token: "tht3sJ2XJjhgKO3i/jDHYtvwjg/ZVvEkJmkOi6jz9JEi1wDLMxfVGsBSqrw95cSf6Q9gVs/+0fVU/euF81oII5I5+SceFrzgniBAwbk7EkAIJh1p6xEn3RyI1sO6cTcYNEeGja1OfMoBlVt2wtMy5U75iLM8Ie1OBRE4e+rviz1MjSrbJFseUtb0dphlBM9W+oOSnF+icPtrEbaTrqzi7uaWKq0FoIMrnI9h7KL9cWxAdLqTLts/564Hb+Zyhy3V1T+UwQCBUaQCaqMfuEgOJ7vG/3b7R4XL53ch8gdGqw10pTXtKFovUBZxJKHOtaj2bYieTfMm0x2SppjDAG+xSj9EITwb8dGU538oXMbRXs7wMEWHfreh3oVaz4fEpFDjcxQ/zRqTSd7I2gFl/nlGHPZZgM8ymBkYkkEeka6IohjEh6Sx9HTvKKeY5o7/1D0iONyVMf+3X3cZDhcyMNhPlNp7TwV4lU/C6+A9vj6Q55r3bFBv85u3AA=="
+};
+
+module.exports = config;

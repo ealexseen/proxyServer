@@ -1,0 +1,112 @@
+{
+  "type": "BudgetResponse",
+  "id": 10,
+  "project": {
+    "id": 63689,
+    "name": "Cruzan - Roselle / Dunhill"
+  },
+  "createdBy": 29237,
+  "createdByRef": {
+    "id": 29237,
+    "name": "admin@test.by",
+    "firstName": "Andrey",
+    "lastName": "Vasilevsky",
+    "active": true
+  },
+  "createdTimestamp": 1543187623000,
+  "updatedBy": 29237,
+  "updatedByRef": {
+    "id": 29237,
+    "name": "admin@test.by",
+    "firstName": "Andrey",
+    "lastName": "Vasilevsky",
+    "active": true
+  },
+  "updatedTimestamp": 1543187623000,
+  "startDate": "2018-11-18",
+  "endDate": "2018-11-18",
+  "total": {
+    "type": "BudgetedHours",
+    "hours": 20000,
+    "actualHours": 10000,
+    "complete": 50
+  },
+  "divisions": [
+    {
+      "type": "BudgetDivision",
+      "division": "01 Metals",
+      "total": {
+        "type": "BudgetedHours",
+        "hours": 2500,
+        "actualHours": 1500,
+        "complete": 90
+      },
+      "costCodes": [
+        {
+          "type": "BudgetedHours",
+          "id": 11,
+          "costCode": {
+            "id": 6221,
+            "division": "01 Metals",
+            "code": "29389",
+            "description": "Structural Metals"
+          },
+          "hours": 500,
+          "actualHours": 300,
+          "complete": 0
+        },
+        {
+          "type": "BudgetedHours",
+          "id": 12,
+          "costCode": {
+            "id": 6222,
+            "division": "01 Metals",
+            "code": "29938",
+            "description": "Duct Work"
+          },
+          "hours": 500,
+          "actualHours": 300,
+          "complete": 60
+        }
+      ]
+    },
+    {
+      "type": "BudgetDivision",
+      "division": "01 Metals",
+      "total": {
+        "type": "BudgetedHours",
+        "hours": 2500,
+        "actualHours": 1500,
+        "complete": 90
+      },
+      "costCodes": [
+        {
+          "type": "BudgetedHours",
+          "id": 11,
+          "costCode": {
+            "id": 6221,
+            "division": "01 Metals",
+            "code": "29389",
+            "description": "Structural Metals"
+          },
+          "hours": 500,
+          "actualHours": 300,
+          "complete": 0
+        },
+        {
+          "type": "BudgetedHours",
+          "id": 12,
+          "costCode": {
+            "id": 6222,
+            "division": "01 Metals",
+            "code": "29938",
+            "description": "Duct Work"
+          },
+          "hours": 500,
+          "actualHours": 300,
+          "complete": 60
+        }
+      ]
+    }
+  ]
+}

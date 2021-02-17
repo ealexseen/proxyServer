@@ -1,0 +1,409 @@
+{
+  "page": {
+    "offset":0,
+    "limit":0
+  },
+  "collection":[
+    {
+      "type":"BillingPlan",
+      "id": 1001,
+      "name":"Basic",
+      "desc":"Basic Plan",
+      "trialPeriod":15,
+      "maxUsers":0,
+      "maxProjects":0,
+      "seatPrice": 100,
+      "annualSeatPrice": 100,
+      "annual": true,
+      "features": [
+        {
+          "code": "auto_weather_capture",
+          "sequence": 2,
+          "visible": true,
+          "title": "Automatic Weather Capture",
+          "subFeatures": []
+        },
+        {
+          "code": "v2t",
+          "sequence": 5,
+          "visible": true,
+          "title": "Voice-to-Text",
+          "subFeatures": []
+        },
+        {
+          "code": "email_reminders",
+          "sequence": 7,
+          "visible": true,
+          "title": "Daily Reports",
+          "subFeatures": []
+        },
+        {
+          "code": "task_management",
+          "sequence": 8,
+          "visible": true,
+          "title": "Task Management",
+          "subFeatures": []
+        },
+        {
+          "code": "dashboard_activity_insights",
+          "sequence": 9,
+          "visible": true,
+          "title": "Dashboard Activity",
+          "subFeatures": []
+        },
+        {
+          "code": "basic",
+          "sequence": 27,
+          "visible": false,
+          "title": "Basic Plan Feature",
+          "subFeatures": []
+        },
+        {
+          "code": "stamps_for_photos",
+          "sequence": 30,
+          "visible": false,
+          "title": "Date/Time Stamps for photos",
+          "subFeatures": []
+        }
+      ]
+    },
+    {
+      "type":"BillingPlan",
+      "id":1002,
+      "name":"Professional",
+      "desc":"Professional Plan",
+      "trialPeriod":15,
+      "maxUsers":0,
+      "maxProjects":0,
+      "seatPrice": 100,
+      "annualSeatPrice": 100,
+      "annual": true,
+      "features": [
+        {
+          "code": "auto_weather_capture",
+          "sequence": 2,
+          "visible": true,
+          "title": "Automatic Weather Capture",
+          "subFeatures": []
+        },
+        {
+          "code": "v2t",
+          "sequence": 5,
+          "visible": true,
+          "title": "Voice-to-Text",
+          "subFeatures": []
+        },
+        {
+          "code": "email_reminders",
+          "sequence": 7,
+          "visible": true,
+          "title": "Daily Reports",
+          "subFeatures": []
+        },
+        {
+          "code": "task_management",
+          "sequence": 8,
+          "visible": true,
+          "title": "Task Management",
+          "subFeatures": []
+        },
+        {
+          "code": "dashboard_activity_insights",
+          "sequence": 9,
+          "visible": true,
+          "title": "Dashboard Activity & Insights",
+          "subFeatures": []
+        },
+        {
+          "code": "time_cards",
+          "sequence": 10,
+          "visible": true,
+          "title": "Time Cards",
+          "subFeatures": []
+        },
+        {
+          "code": "rt_notifications",
+          "sequence": 11,
+          "visible": true,
+          "title": "Real-Time Notifications",
+          "subFeatures": []
+        },
+        {
+          "code": "hours_to_date",
+          "sequence": 12,
+          "visible": false,
+          "title": "Project Hours To Date",
+          "subFeatures": []
+        },
+        {
+          "code": "cloud_integration",
+          "sequence": 13,
+          "visible": true,
+          "title": "Cloud Integration",
+          "subFeatures": [
+            {
+              "code": "box",
+              "sequence": 1,
+              "title": "Box",
+              "visible": true
+            },
+            {
+              "code": "drive",
+              "sequence": 3,
+              "title": "Google Drive",
+              "visible": true
+            },
+            {
+              "code": "dropbox",
+              "sequence": 2,
+              "title": "Dropbox",
+              "visible": true
+            },
+            {
+              "code": "egnyte",
+              "sequence": 4,
+              "title": "Egnyte",
+              "visible": true
+            },
+            {
+              "code": "procore",
+              "sequence": 5,
+              "title": "Procore",
+              "visible": true
+            },
+            {
+              "code": "prolog",
+              "sequence": 6,
+              "title": "Prolog",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "code": "custom_survey",
+          "sequence": 14,
+          "visible": true,
+          "title": "Customizable Surveys",
+          "subFeatures": []
+        },
+        {
+          "code": "professional",
+          "sequence": 28,
+          "visible": false,
+          "title": "Professional Plan Feature",
+          "subFeatures": []
+        },
+        {
+          "code": "stamps_for_photos",
+          "sequence": 30,
+          "visible": false,
+          "title": "Date/Time Stamps for photos",
+          "subFeatures": []
+        }
+      ]
+    },
+    {
+      "type":"BillingPlan",
+      "id":1003,
+      "name":"Performance",
+      "desc":"Performance Plan",
+      "trialPeriod":15,
+      "maxUsers":0,
+      "maxProjects":0,
+      "seatPrice": 100,
+      "annualSeatPrice": 100,
+      "annual": true,
+      "features": [
+        {
+          "code": "auto_weather_capture",
+          "sequence": 2,
+          "visible": true,
+          "title": "Automatic Weather Capture",
+          "subFeatures": []
+        },
+        {
+          "code": "v2t",
+          "sequence": 5,
+          "visible": true,
+          "title": "Voice-to-Text",
+          "subFeatures": []
+        },
+        {
+          "code": "email_reminders",
+          "sequence": 7,
+          "visible": true,
+          "title": "Daily Reports",
+          "subFeatures": []
+        },
+        {
+          "code": "task_management",
+          "sequence": 8,
+          "visible": true,
+          "title": "Task Management",
+          "subFeatures": []
+        },
+        {
+          "code": "dashboard_activity_insights",
+          "sequence": 9,
+          "visible": true,
+          "title": "Dashboard Activity & Insights",
+          "subFeatures": []
+        },
+        {
+          "code": "time_cards",
+          "sequence": 10,
+          "visible": true,
+          "title": "Time Cards",
+          "subFeatures": []
+        },
+        {
+          "code": "rt_notifications",
+          "sequence": 11,
+          "visible": true,
+          "title": "Real-Time Notifications",
+          "subFeatures": []
+        },
+        {
+          "code": "hours_to_date",
+          "sequence": 12,
+          "visible": false,
+          "title": "Project Hours To Date",
+          "subFeatures": []
+        },
+        {
+          "code": "cloud_integration",
+          "sequence": 13,
+          "visible": true,
+          "title": "Cloud Integration",
+          "subFeatures": [
+            {
+              "code": "box",
+              "sequence": 1,
+              "title": "Box",
+              "visible": true
+            },
+            {
+              "code": "drive",
+              "sequence": 3,
+              "title": "Google Drive",
+              "visible": true
+            },
+            {
+              "code": "dropbox",
+              "sequence": 2,
+              "title": "Dropbox",
+              "visible": true
+            },
+            {
+              "code": "egnyte",
+              "sequence": 4,
+              "title": "Egnyte",
+              "visible": true
+            },
+            {
+              "code": "procore",
+              "sequence": 5,
+              "title": "Procore",
+              "visible": true
+            },
+            {
+              "code": "prolog",
+              "sequence": 6,
+              "title": "Prolog",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "code": "custom_survey",
+          "sequence": 14,
+          "visible": true,
+          "title": "Customizable Surveys & Templates",
+          "subFeatures": []
+        },
+        {
+          "code": "customizable_reports",
+          "sequence": 15,
+          "visible": true,
+          "title": "Customizable Reports",
+          "subFeatures": [
+            {
+              "code": "weekly_summaries",
+              "sequence": 1,
+              "title": "Weekly Summaries",
+              "visible": true
+            },
+            {
+              "code": "monthly_summaries",
+              "sequence": 2,
+              "title": "Monthly Summaries",
+              "visible": true
+            },
+            {
+              "code": "manpower_summaries",
+              "sequence": 3,
+              "title": "Manpower Summaries",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "code": "super_daily_report",
+          "sequence": 16,
+          "visible": true,
+          "title": "Super Daily: Free Subcontractor Access",
+          "subFeatures": []
+        },
+        {
+          "code": "bulk_download_media",
+          "sequence": 17,
+          "visible": true,
+          "title": "Photo Management",
+          "subFeatures": []
+        },
+        {
+          "code": "automatic_email_of_daily_reports",
+          "sequence": 18,
+          "visible": true,
+          "title": "Automatic Email of Daily Reports",
+          "subFeatures": []
+        },
+        {
+          "code": "api_access",
+          "sequence": 22,
+          "visible": true,
+          "title": "API Access",
+          "subFeatures": []
+        }
+      ]
+    },
+    {
+      "type":"BillingPlan",
+      "id":1000,
+      "name":"Starter",
+      "desc":"Starter Plan",
+      "trialPeriod":0,
+      "maxUsers":0,
+      "maxProjects":1,
+      "seatPrice": 100,
+      "annualSeatPrice": 100,
+      "annual": true,
+      "features": [
+        {
+          "code": "starter",
+          "sequence": 26,
+          "visible": false,
+          "title": "Starter Plan Feature",
+          "subFeatures": []
+        },
+        {
+          "code": "stamps_for_photos",
+          "sequence": 30,
+          "visible": false,
+          "title": "Date/Time Stamps for photos",
+          "subFeatures": []
+        }
+      ]
+    }
+  ]
+}

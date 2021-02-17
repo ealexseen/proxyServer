@@ -1,0 +1,53 @@
+{
+  "type": "BudgetResponse",
+  "project": {
+    "id": 63689,
+    "name": "Cruzan - Roselle / Dunhill"
+  },
+  "startDate": "2018-11-18",
+  "endDate": "2018-11-18",
+  "total": {
+    "type": "BudgetHours",
+    "hours": 20000,
+    "actualHours": 10000,
+    "complete": 50
+  },
+  "divisions": [
+    {
+      "type": "BudgetDivision",
+      "division": "01 Metals",
+      "total": {
+        "type": "BudgetedHours",
+        "hours": 2500,
+        "actualHours": 2500,
+        "complete": 90
+      },
+      "costCodes": [
+        {
+          "type": "BudgetСostCode",
+          "costCode": {
+            "id": 6221,
+            "division": "01 Metals",
+            "code": "29389",
+            "description": "Structural Metals"
+          },
+          "hours": 500,
+          "actualHours": 300,
+          "complete": 0
+        },
+        {
+          "type": "BudgetСostCode",
+          "costCode": {
+            "id": 6222,
+            "division": "01 Metals",
+            "code": "29938",
+            "description": "Duct Work"
+          },
+          "hours": 500,
+          "actualHours": 300,
+          "complete": 60
+        }
+      ]
+    }
+  ]
+}
